@@ -3,7 +3,7 @@
 
   <remote name="aosp" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   <remote name="rk" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
-  <default revision="refs/tags/android-7.1.0_r4"
+  <default revision="refs/tags/android-7.1.1_r6"
     remote="aosp"
     sync-c="true"
     sync-j="4" />
@@ -50,9 +50,9 @@
   <project path="device/google/accessory/demokit" name="android/device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="android/device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/google/contexthub" name="android/device/google/contexthub" groups="device" />
+  <!--
   <project path="device/google/dragon" name="android/device/google/dragon" groups="device,dragon" />
   <project path="device/google/dragon-kernel" name="android/device/google/dragon-kernel" groups="device,dragon" clone-depth="1" />
-  <!--
   <project path="device/htc/flounder" name="android/device/htc/flounder" groups="device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="android/device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
   <project path="device/huawei/angler" name="android/device/huawei/angler" groups="device,angler,broadcom_pdk" />
@@ -103,7 +103,7 @@
   <project path="external/dagger2" name="android/platform/external/dagger2" />
   <project path="external/dbus" name="android/platform/external/dbus" />
   <project path="external/dbus-binding-generator" name="android/platform/external/dbus-binding-generator" />
-  <project path="external/deqp" name="android/platform/external/deqp" groups="pdk-fs" />
+  <project path="external/deqp" name="android/platform/external/deqp" groups="pdk-fs" revision="refs/tags/android-cts_7.1_r1" />
   <project path="external/dexmaker" name="android/platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dhcpcd-6.8.2" name="android/platform/external/dhcpcd-6.8.2" />
   <project path="external/dlmalloc" name="android/platform/external/dlmalloc" />
@@ -382,7 +382,7 @@
   <project path="hardware/ti/omap3" name="android/platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="android/platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="android/platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="android/platform/libcore" groups="pdk" />
+  <project path="libcore" name="android/platform/libcore" groups="pdk" revision="refs/tags/android-cts_7.1_r1" />
   <project path="libnativehelper" name="android/platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="android/platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="android/platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
@@ -502,7 +502,7 @@
   <project path="system/connectivity/apmanager" name="android/platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="android/platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="android/platform/system/connectivity/shill" />
-  <project path="system/extras" name="android/platform/system/extras" groups="pdk" />
+  <project path="system/extras" name="android/platform/system/extras" groups="pdk" revision="refs/tags/android-cts_7.1_r1"/>
   <project path="system/firewalld" name="android/platform/system/firewalld" />
   <project path="system/gatekeeper" name="android/platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="android/platform/system/keymaster" groups="pdk" />
@@ -534,7 +534,7 @@
 
   <!-- Rockchip's modified AOSP projects. start -->
   <project path="bionic" name="android/platform/bionic" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
-  <project path="external/libdrm" name="android/platform/external/libdrm" groups="pdk" remote="aosp" revision="rk32/mid/6.0/develop" />
+  <project path="external/libdrm" name="android/platform/external/libdrm" groups="pdk" remote="aosp" revision="rk32/mid/7.0/develop" />
   <project path="frameworks/av" name="android/platform/frameworks/av" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="frameworks/base" name="android/platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="frameworks/ex" name="android/platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="rk33/mid/7.0/develop"/>
@@ -588,6 +588,7 @@
   <!-- Rockchip's HAL projects. end -->
 
   <!-- Rockchip's extra projects. start -->
+  <project path="external/io" name="android/rk/platform/external/io" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project path="external/ntfs-3g" name="android/rk/platform/external/ntfs-3g" remote="rk" revision="rk32/mid/6.0/develop" />
   <project path="external/usb_modeswitch" name="android/rk/platform/external/usb_modeswitch" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="frameworks/opt/net/pppoe" name="android/platform/frameworks/opt/net/pppoe" groups="pdk-fs" remote="rk" revision="rk33/mid/7.0/develop"/>
