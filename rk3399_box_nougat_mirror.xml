@@ -508,7 +508,7 @@
   <project path="system/keymaster" name="android/platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="android/platform/system/media" groups="pdk" />
   <project path="system/nativepower" name="android/platform/system/nativepower" />
-  <project path="system/netd" name="android/platform/system/netd" groups="pdk" />
+  <project path="system/netd" name="android/platform/system/netd" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="system/nvram" name="android/platform/system/nvram" />
   <project path="system/security" name="android/platform/system/security" groups="pdk" />
   <project path="system/sepolicy" name="android/platform/system/sepolicy" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
