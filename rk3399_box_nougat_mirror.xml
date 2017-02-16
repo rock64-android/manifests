@@ -543,7 +543,7 @@
   <project path="hardware/libhardware_legacy" name="android/platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="hardware/libhardware" name="android/platform/hardware/libhardware" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="packages/apps/Music" name="android/platform/packages/apps/Music" groups="pdk-fs" remote="aosp" revision="rk33/mid/7.0/develop" />
-  <project path="packages/apps/Settings" name="android/platform/packages/apps/Settings" groups="pdk-fs" remote="aosp" revision="rk33/mid/7.0/develop" />
+  <project path="packages/apps/Settings" name="android/platform/packages/apps/Settings" groups="pdk-fs" remote="rk" revision="rk33/box/7.0/develop" />
   <project path="system/core" name="android/platform/system/core" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="external/tinyalsa" name="android/platform/external/tinyalsa" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <!-- Rockchip's modified AOSP projects. end -->
