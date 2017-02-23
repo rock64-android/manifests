@@ -3,6 +3,7 @@
 
   <remote name="aosp" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   <remote name="rk" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
+  <remote name="rk_legacy" fetch="ssh://git@www.rockchip.com.cn/repo/"/>
   <default revision="refs/tags/android-7.1.1_r6"
     remote="aosp"
     sync-c="true"
@@ -252,7 +253,7 @@
   <project path="external/selinux" name="android/platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="android/platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="android/platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="android/platform/external/skia" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" name="android/platform/external/skia" groups="pdk,qcom_msm8x26" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="external/sl4a" name="android/platform/external/sl4a" />
   <project path="external/slf4j" name="android/platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="android/platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
@@ -376,7 +377,7 @@
   <project path="packages/apps/Provision" name="android/platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="android/platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="android/platform/packages/apps/SafetyRegulatoryInfo" />
-  <project path="packages/apps/Settings" name="android/platform/packages/apps/Settings" groups="pdk-fs" remote="rk" revision="rk33/mid/7.0/develop"/>
+  <project path="packages/apps/Settings" name="android/platform/packages/apps/Settings" groups="pdk-fs" remote="rk" revision="rk33/box/7.0/develop"/>
   <project path="packages/apps/SoundRecorder" name="android/platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="android/platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="android/platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
@@ -501,8 +502,8 @@
   </project>
   <project path="rkst" name="android/rk/rkst" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project path="vendor/rockchip/common" name="android/rk/platform/vendor/rockchip/common" remote="rk" revision="rk32/mid/7.0/develop"/>
-  <project path="kernel" name="rk/kernel" remote="rk" revision="develop-3.10"/>
-  <project path="u-boot" name="android/rk/u-boot" remote="rk" revision="rkdevelop"/>
+  <project path="kernel" name="rk/kernel" remote="rk" revision="stable-3.10-rk3328-box-7.1"/>
+  <project path="u-boot" name="android/rk/u-boot" remote="rk" revision="rkproduct"/>
   <!-- RK3399 bringup projects. end -->
 
   <!-- Rockchip's HAL projects. start -->
@@ -534,6 +535,7 @@
   <project path="hardware/realtek" name="android/platform/hardware/realtek" remote="rk" revision="rk33/mid/7.0/develop"/>
   <project path="packages/apps/Browser" name="android/platform/packages/apps/Browser" groups="pdk-fs" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project path="system/displayd" name="android/rk/platform/system/displayd" groups="pdk" remote="rk" revision="rk30/box/4.4_r1/develop"/>
+  <project path="vendor/widevine" name="android/rk/platform/vendor/Widevine" remote="rk" revision="rk33/mid/7.0/develop"/>
   <project path="external/wlan_loader" name="android/rk/platform/external/wlan_loader" remote="rk" revision="rk32/mid/6.0/develop" />
   <project path="RKTools" name="android/RKTools" remote="rk" revision="rk3328/box/android-7.1"/>
   <project path="RKDocs" name="android/RKDocs" remote="rk" revision="rk3399/box/android-6.0"/>
