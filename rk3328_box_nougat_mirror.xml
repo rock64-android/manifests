@@ -4,7 +4,7 @@
   <remote name="aosp" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   <remote name="rk" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   <remote name="rk_legacy" fetch="ssh://git@www.rockchip.com.cn/repo/"/>
-  <default revision="refs/tags/android-7.1.1_r6"
+  <default revision="refs/tags/android-7.1.1_r22"
     remote="aosp"
     sync-c="true"
     sync-j="4" />
@@ -538,6 +538,6 @@
   <project path="vendor/widevine" name="android/rk/platform/vendor/Widevine" remote="rk" revision="rk33/mid/7.0/develop"/>
   <project path="external/wlan_loader" name="android/rk/platform/external/wlan_loader" remote="rk" revision="rk32/mid/6.0/develop" />
   <project path="RKTools" name="android/RKTools" remote="rk" revision="rk3328/box/android-7.1"/>
-  <project path="RKDocs" name="android/RKDocs" remote="rk" revision="rk3399/box/android-6.0"/>
+  <project path="RKDocs" name="android/RKDocs" remote="rk" revision="rk3328/box/android-7.1"/>
   <!-- Rockchip's extra projects. end -->
 </manifest>
