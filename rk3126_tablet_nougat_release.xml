@@ -508,5 +508,5 @@
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="5712a32543e36f911f2490ab8532611c0914f6ab" upstream="rkdevelop"/>
   <project name="android/toolchain/binutils" path="toolchain/binutils" revision="c327c9c1bcffd231fcaa05f3fd8c047d1fe0afcc" upstream="refs/tags/android-7.1.1_r22"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="3c671177ee09c9b1956035438107084819bbbdb0" upstream="develop-3.10"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="31906ea6f46f3dc3bd23af7634f2f81be78b9054" upstream="develop-3.10"/>
 </manifest>
