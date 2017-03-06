@@ -479,7 +479,7 @@
   <project groups="tools" name="android/platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="tools" name="android/platform/tools/external/gradle" path="tools/external/gradle" revision="3e814f34be10a032132b56c27d2841c0d1fc626d" upstream="refs/tags/android-7.1.1_r22"/>
   <project name="android/platform/tools/test/connectivity" path="tools/test/connectivity" revision="ccadc4bc85ba64b24b37f118190f823846f37848" upstream="refs/tags/android-7.1.1_r22"/>
-  <project name="android/rk/device/rockchip/rk312x" path="device/rockchip/rk312x" remote="rk" revision="dea4a73c6d542ae310d7acd241b400c651944fa4" upstream="rk32/mid/7.0/develop">
+  <project name="android/rk/device/rockchip/rk312x" path="device/rockchip/rk312x" remote="rk" revision="7ef9b71f627ae510994449f24c5e1fa909f917e9" upstream="rk32/mid/7.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
