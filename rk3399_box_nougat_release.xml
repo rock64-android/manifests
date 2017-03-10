@@ -5,8 +5,8 @@
   
   <default remote="aosp" revision="refs/tags/android-7.1.1_r6" sync-c="true" sync-j="4"/>
   
-  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="da3c4fa1a498ff6019589cdc6d6ee37cc1b84a43" upstream="rk3399/box/android-6.0"/>
-  <project name="android/RKTools" path="RKTools" remote="rk" revision="ce0d44915d3b13cc556ff607dde745f71965ccc3" upstream="rk3399/box/android-6.0"/>
+  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="8e9386120843c4317932ad1f224852b52bf3df9a" upstream="rk3399/box/android-6.0"/>
+  <project name="android/RKTools" path="RKTools" remote="rk" revision="7a5f45014c608839b426bd89940f291fa05e824b" upstream="rk3399/box/android-6.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/device/common" path="device/common" revision="ce8d3a16fd31621ff1d6fd3af783dfecf62ed15f" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk" name="android/device/generic/arm64" path="device/generic/arm64" revision="e6ecf6be2f8acdd21253a08f26ab0f942f76c46d" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk" name="android/device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="0064a633244371827eef6f7a22208056b6c49566" upstream="refs/tags/android-7.1.1_r6"/>
@@ -30,9 +30,9 @@
   <project groups="pdk" name="android/device/sample" path="device/sample" revision="d2d05dd5bf56e0b3136cbe733da14a479104cda3" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk" name="android/platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk" name="android/platform/art" path="art" revision="12eb0c532e33ca5d5e98addd580b5ad0a4b71be4" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk" name="android/platform/bionic" path="bionic" revision="bfce37408107d477b958eca1f41196905bffdae6" upstream="rk33/mid/7.0/develop"/>
-  <project groups="pdk" name="android/platform/bootable/recovery" path="bootable/recovery" revision="786611d88e6f5107c1b69cfbd14679c463f2fc0c" upstream="rk33/mid/7.0/develop"/>
-  <project groups="pdk,tradefed" name="android/platform/build" path="build" revision="8e74bd488de957c4a6a2f18112a5713304e4ca42" upstream="rk33/mid/7.0/develop">
+  <project groups="pdk" name="android/platform/bionic" path="bionic" revision="e3a1035e39dc02da96c744b09664be0e917abb04" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk" name="android/platform/bootable/recovery" path="bootable/recovery" revision="b84bcbf96b627c89edb206d0fd7498b989230517" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk,tradefed" name="android/platform/build" path="build" revision="5ae2990b3dd60de2ae38edd52ba83f769d9f3568" upstream="rk33/mid/7.0/develop">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="pdk,tradefed" name="android/platform/build/blueprint" path="build/blueprint" revision="3a89d1ce9fe7a5160ee87ee11f99edbf540020fc" upstream="refs/tags/android-7.1.1_r6"/>
@@ -293,17 +293,17 @@
   <project groups="pdk" name="android/platform/external/zlib" path="external/zlib" revision="cec8538e6162907d587c5229b81fc6a025cc1236" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/zopfli" path="external/zopfli" revision="d467682cabdaff41673db87ccabc9dcd06977241" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/zxing" path="external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk" name="android/platform/frameworks/av" path="frameworks/av" revision="4a4eb03ab953e7110b6f315963b6f6b605a8cd87" upstream="rk33/mid/7.0/develop"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/base" path="frameworks/base" revision="9caf3b1d6098d365f84803fcd2222f79ded616cd" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk" name="android/platform/frameworks/av" path="frameworks/av" revision="d3b2671eb30194c806c779038b738b9b036d4786" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/base" path="frameworks/base" revision="28e2dc0aae8cf0ca90e336484c91b067331addab" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk" name="android/platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="d2e35f95915d480fe203d6614df8b0f5d14de0e5" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk" name="android/platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="119bb9b550f139ace5f69075390937c7f1222761" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk" name="android/platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="4eb5fac8a0466c674e565ff2c96986c499b439d4" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/data-binding" path="frameworks/data-binding" revision="68577455ab58e33a337144991bdb6a3bce22ebf2" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/ex" path="frameworks/ex" revision="83dd0c6714b0c36802063a92fc2d61362ae217d6" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/ex" path="frameworks/ex" revision="ceca2f45e32300a721e4e3b415e6a2099e52d44b" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/minikin" path="frameworks/minikin" revision="1aa0c40db9d3d308758fc836ac117a9b4e3723a5" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/ml" path="frameworks/ml" revision="13223cca22c388bf9c4941fca3c92c5acfe73650" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/multidex" path="frameworks/multidex" revision="c094a2de01995fbed174287e2c9ad0c0415f5ece" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk" name="android/platform/frameworks/native" path="frameworks/native" revision="5323b11f89e91bf15a801ba501be6c7676d22a26" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk" name="android/platform/frameworks/native" path="frameworks/native" revision="664eb3206c879b4e765ca87b83139b5bd5115bd1" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="a0d4e3108663202564a6833b76770075b8e5b767" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="e2a4a6b610c3195f0a6f0e5d32ca6756df68f1b0" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2" upstream="refs/tags/android-7.1.1_r6"/>
@@ -313,7 +313,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="92eede13edbf22b501edb9aeb92366f91eab9781" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon" revision="3baece9b20fa480da46d860acd7320fd9eee3386" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="990fcb1a6dbb5d1204cc8ec86e4bc3f691f4aeeb" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk-fs" name="android/platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="56e1e264e9ae826fecf343d3eec5f8d7da415d21" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk-fs" name="android/platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="24b35ad2478c9c33cbac80957c684628a0987deb" upstream="rk33/mid/7.0/develop"/>
   <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="dad940f3eeade411178c55eaed1fd10b1c4c9499" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" remote="rk" revision="ed0209c090aee3244e0902380a2e6c33693ba5bc" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" revision="3081e5a8b67bcb9cb4fc1dcf75ce1f3faf7d547f" upstream="refs/tags/android-7.1.1_r6"/>
@@ -329,7 +329,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/webview" path="frameworks/webview" revision="ad75a55a161c28a96c3cf1a2ad6bda28ea5e9799" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="34ea74827da9a7401d779f7dab9bc63b8253baa4" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/hardware/akm" path="hardware/akm" revision="85837c2e77e032a834121ec3b9b6128f691d68a8" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk" name="android/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="37a26a0c29c8ac49c1c6efffc006d7305fbb6da0" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk" name="android/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="406a5b3cc933ab36d6d6fb23b1dbfb4a11ac15fa" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk,broadcom_wlan" name="android/platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="c946538fa03022ea3bb30dc4525acdc5b888e3f3" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="558d3e3108966a320b5ccfefd2a6c4c595976b82" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk" name="android/platform/hardware/google/apf" path="hardware/google/apf" revision="f9491fa2795120de428ffcea3a113616b63644f3" upstream="refs/tags/android-7.1.1_r6"/>
@@ -348,8 +348,8 @@
   <project groups="intel" name="android/platform/hardware/intel/img/psb_video" path="hardware/intel/img/psb_video" revision="a805f1c63455a00883e066119fb0c5d533d3a116" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="intel_sensors" name="android/platform/hardware/intel/sensors" path="hardware/intel/sensors" revision="68dc9e70b79dacddc4e0bf00af0de7f764b04eed" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="invensense" name="android/platform/hardware/invensense" path="hardware/invensense" revision="11e5ff75af866f91622b6008fa13db1c3685ae69" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk" name="android/platform/hardware/libhardware" path="hardware/libhardware" revision="55f5e6b57ba2706c74ec16a2ade6fef612372440" upstream="rk33/mid/7.0/develop"/>
-  <project groups="pdk" name="android/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="9eed7bdb4ec150404b84950a8e41898518189fac" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk" name="android/platform/hardware/libhardware" path="hardware/libhardware" revision="22da6c70b72deb4db27c2a93aea90272b2e75b65" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk" name="android/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="27da1e9b78c238c3ccdd6bee7b5da2b9ab2b3e52" upstream="rk33/mid/7.0/develop"/>
   <project groups="marvell_bt" name="android/platform/hardware/marvell/bt" path="hardware/marvell/bt" revision="3f33d194e8300816b94d1d7b68b1d48c8f903251" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="qcom,qcom_audio" name="android/platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="cc4fc7f79614498bdcdad452c11042ff7c64ac72" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk" name="android/platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="8352159ddb0cced7075dbf8310ab621d28859fac" upstream="refs/tags/android-7.1.1_r6"/>
@@ -367,7 +367,7 @@
   <project groups="qcom_msm8x84" name="android/platform/hardware/qcom/msm8x84" path="hardware/qcom/msm8x84" revision="582b414269d8472d17eef65d8a8965aa8105042f" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="qcom" name="android/platform/hardware/qcom/power" path="hardware/qcom/power" revision="3a098ee1f89c398b9d6e7b5dfae9c694994f8bc4" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="qcom_wlan" name="android/platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="6328a84d72ba44e23fea24fc129ac3ca09905f31" upstream="refs/tags/android-7.1.1_r6"/>
-  <project name="android/platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="0f4aed65b1b04526298fc0f272815e59aa1b2a8e" upstream="rk33/mid/7.0/develop"/>
+  <project name="android/platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="3cf39c0a256020d9ec77d1eb19e6d7ad780ca55b" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk" name="android/platform/hardware/ril" path="hardware/ril" revision="9a57d9f450fbd4badd94c6e262bc18d853767c01" upstream="rk33/mid/7.0/develop"/>
   <project groups="omap3" name="android/platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="40292fb9eeb2cf0bb95dc818da12ddcae40b931c" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="omap4-aah" name="android/platform/hardware/ti/omap4-aah" path="hardware/ti/omap4-aah" revision="a62514d376a94e27bec5e932aadb67401ca550b0" upstream="refs/tags/android-7.1.1_r6"/>
@@ -376,7 +376,7 @@
   <project groups="pdk" name="android/platform/libnativehelper" path="libnativehelper" revision="8ebb2fb2e4b92592368c1360d49d5dfa16ef56cc" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="generic_fs" name="android/platform/ndk" path="ndk" revision="76ca48a9270bead748bdc8feec16ee40e0ae6f98" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="037a17a13e341a3979da8bfea5e5f297f2367009" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="2ded911eba9871623877e99854d794d2b3ae75dd" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="45afdd75a6a042522a3ee0d9595d41073cce6176" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Browser" path="packages/apps/Browser" remote="rk" revision="a530d5cdf269c0301068feaa733caa5353d1d4c1" upstream="rk32/mid/6.0/develop"/>
   <project name="android/platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="2d974e22fb685fb2074defa981304d616c9f21c5" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="2edd411102e6ef763b6932a201a6dc4157250d54" upstream="rk33/mid/7.0/develop"/>
@@ -413,7 +413,7 @@
   <project groups="pdk-fs" name="android/platform/packages/apps/Provision" path="packages/apps/Provision" revision="53593db784a7425c424ccd52fcd122847ed26a4d" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="182bfdc2648bfef67d12bfd0e46707d1f7194d00" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="b1da14d3684714d43b0dcb9463c0c495e3d6ffa3" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk-fs" name="android/platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="3c347439d5895962f072306259777cb72abf2ce7" upstream="rk33/box/7.0/develop"/>
+  <project groups="pdk-fs" name="android/platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="20be05f91a89a772a333a4c1c58b25f085cce698" upstream="rk33/box/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="471c97a8a50ca9c13ccc3dcfa714df8766bfdbac" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="51cc8462c082a26810f5d7c5a2648232a77e795c" upstream="refs/tags/android-7.1.1_r6"/>
@@ -423,7 +423,7 @@
   <project groups="pdk-fs" name="android/platform/packages/apps/Tag" path="packages/apps/Tag" revision="587be905460f85e28888fe54ccba9d17b105b018" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Terminal" path="packages/apps/Terminal" revision="5b68e8ad082625206492ca9baf889f8c5427eb01" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity" revision="c835e2e0c11d538415c05dc5e636fe56f1cc7185" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="generic_fs" name="android/platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="b0156e6bdb961e4ca8e426c6671412313013881c" upstream="rk33/mid/7.0/develop"/>
+  <project groups="generic_fs" name="android/platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="cd9bb4d6ecc73714380f60d7b1c0ee4924a3913a" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" revision="bce9c3c2c9f8ed6492d919148044ef33adb8ddf3" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/packages/experimental" path="packages/experimental" revision="0e6177c78af2de6d71279725753d5db92511f397" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-fs" name="android/platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" remote="rk" revision="e0b52e61a23ac64fb3b86aa45de663b2ed2f190b" upstream="rk33/box/5.1_r1/develop"/>
@@ -446,7 +446,7 @@
   <project groups="adp8064,pdk-cw-fs,pdk-fs" name="android/platform/packages/services/Car" path="packages/services/Car" revision="84596fb793fe47874e8cfdbf621c6807e3328006" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/services/Mms" path="packages/services/Mms" revision="d0c5b20403b3924cee67e0e72d745b10b0691eac" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="a66a6cb102a3de96a9a19a032d820e168b4b8cf4" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/services/Telephony" path="packages/services/Telephony" revision="24b27a9294ff7053d99429112cdc6b0f4f11a13e" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/services/Telephony" path="packages/services/Telephony" revision="7634de2aaaeef599b52a197065588351075656f9" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="98d4aea6e1904ca257440ce8dfa1a8cd6388c6ad" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk" name="android/platform/pdk" path="pdk" revision="708589163e790eb3a7fec09f4832a0f78999bdf3" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/platform_testing" path="platform_testing" revision="9ceec1015953bf3c6bc9a89a064fc35e1d0e67f4" upstream="refs/tags/android-7.1.1_r6"/>
@@ -494,7 +494,7 @@
   <project name="android/platform/system/connectivity/apmanager" path="system/connectivity/apmanager" revision="6b32d8c3ef43ce1d5280c202733a1e9f17850eac" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/system/connectivity/dhcp_client" path="system/connectivity/dhcp_client" revision="bf76367cd82e6eac86993ce852286a7c36d755bf" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/system/connectivity/shill" path="system/connectivity/shill" revision="269d710ded3ced0d1857430bf2da5a670629afe1" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk" name="android/platform/system/core" path="system/core" revision="4df91e739b3e4deb139dd4d9c7ce6b2c565abad5" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk" name="android/platform/system/core" path="system/core" revision="8b011cb08fd5b066e2eb45c38cd1b5358563bbbd" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk" name="android/platform/system/extras" path="system/extras" revision="6727a1e7187f5d41fb8efaf10123a66818f9a4a8" upstream="refs/tags/android-cts_7.1_r1"/>
   <project name="android/platform/system/firewalld" path="system/firewalld" revision="835d2c2d6f151059c4d70adbfdac9aca7b3f98c5" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk" name="android/platform/system/gatekeeper" path="system/gatekeeper" revision="e3fab37e2aec7e09a1956ffaa0c05a63a6f539e7" upstream="refs/tags/android-7.1.1_r6"/>
@@ -504,45 +504,45 @@
   <project groups="pdk" name="android/platform/system/netd" path="system/netd" revision="815b21781c0dc72e84cac2ee778e47757f05f18e" upstream="rk33/mid/7.0/develop"/>
   <project name="android/platform/system/nvram" path="system/nvram" revision="c8e2b037667539ddbde0a0a782b8258964ca4fce" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk" name="android/platform/system/security" path="system/security" revision="37ca4172bb9c62ff25b5277ad7066935f538b749" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk" name="android/platform/system/sepolicy" path="system/sepolicy" revision="6eba0697087944247cb0f0cd99164a743c782517" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk" name="android/platform/system/sepolicy" path="system/sepolicy" revision="2e206e976a5f59db2dca0670efdfd52f7903659b" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/system/tools/aidl" path="system/tools/aidl" revision="23fb35162bc8b22bc88662eb53d66d0d4247763a" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/system/tpm" path="system/tpm" revision="8e9be04bfdf8501018518989a56f588e136deaf0" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/system/update_engine" path="system/update_engine" revision="44f24b13682f29e0a1eefd44a8bf7149fe8f805a" upstream="refs/tags/android-7.1.1_r6"/>
-  <project groups="pdk" name="android/platform/system/vold" path="system/vold" revision="00cb6a8cd0a252f9027dea57239a3eb7e7eb490d" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk" name="android/platform/system/vold" path="system/vold" revision="c5a2ad3b2cbd25e360d59d303561a926cf0f6327" upstream="rk33/mid/7.0/develop"/>
   <project name="android/platform/system/weaved" path="system/weaved" revision="d53e7a5301f5c61c1a5d884a82950046e4031f1e" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/system/webservd" path="system/webservd" revision="205bca472f0b8434fdeefa0d02852f48610448a5" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="tools" name="android/platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="tools" name="android/platform/tools/external/gradle" path="tools/external/gradle" revision="3e814f34be10a032132b56c27d2841c0d1fc626d" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="android/platform/tools/test/connectivity" path="tools/test/connectivity" revision="ccadc4bc85ba64b24b37f118190f823846f37848" upstream="refs/tags/android-7.1.1_r6"/>
-  <project name="android/rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk" revision="4f1dc7a3d50d96d464a4d7000876bf83e7b9014f" upstream="rk33/mid/7.0/develop">
+  <project name="android/rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk" revision="ff39c7eafbe2d3c216902c49c047e7c3f6c989e0" upstream="rk33/mid/7.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec-rk3399-box.mk"/>
     <copyfile dest="build.sh" src="build-rk3399-box.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="351f4e9fd323ec3ad1fd9151854e5d2c3aa30b5f" upstream="rk33/mid/7.0/develop">
+  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="167c5e657669ebc8d14f826684776b16527a3da8" upstream="rk33/mid/7.0/develop">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
   </project>
-  <project name="android/rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="d0d5b5181ba24a46ff19c3b678da4eb0daac6a80" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="d797a982e8bd05f6f99745902b49ca363c932b3b" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="83537b3e804e6461c0262b8d235766fb97d2fbec" upstream="rk33/mid/6.0/develop_drm"/>
+  <project name="android/rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="a59b389ad6f5721b06bdce27fecd5bb17ca75e67" upstream="rk33/mid/7.0/develop"/>
+  <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="8866ee2d64997b48dc99a993f0ab47b3b5130aae" upstream="rk32/mid/6.0/develop"/>
+  <project name="android/rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="65cf0b60452eae4761511b0ac28b4798fd5a997b" upstream="rk33/mid/6.0/develop_drm"/>
   <project name="android/rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="d9a9a6e0971aa63a1ab66e1360bb74dd33b99275" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk" revision="8e2eafd7e61f949b01104680a5028384c9d5c6cc" upstream="rk33/mid/6.0/develop_drm"/>
   <project name="android/rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="rk" revision="aec928e51175616eaa658d20b66d3dc1d63a6b04" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/hardware/rk29/liblights" path="hardware/rockchip/liblights" remote="rk" revision="1de699990813d7b65c163f78061f9c393a8c4363" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/hardware/rk29/librga" path="hardware/rockchip/librga" remote="rk" revision="ec377576a3deb2c9eda6d43d777d84c2f5d028e5" upstream="master"/>
-  <project name="android/rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="736c774b3cde3a986a26cacfd5a6a290b78b844d" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="f868521b4ee7fe1390d344e70187859282904b6c" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="3f51c10067d7aaf3d4a80f545403e7ab2712f27e" upstream="rk33/mid/7.0/develop"/>
+  <project name="android/rk/hardware/rk29/librga" path="hardware/rockchip/librga" remote="rk" revision="6172d0bf41abd58bf52908bf42030096b5626b47" upstream="master"/>
+  <project name="android/rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="55d4c5e0632a96b61846f9567bd4c05a31201df4" upstream="rk32/mid/6.0/develop"/>
+  <project name="android/rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="f613019307bd950c4ec1a9dbd1df053c814ec961" upstream="rk33/mid/7.0/develop"/>
+  <project name="android/rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="45aac91e2adb1e4ffcf7f872257d53a234d0c93b" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="277c17f4694b050cad96526ef065d1b64c1edf55" upstream="rk32/mid/7.0/develop"/>
   <project name="android/rk/platform/external/io" path="external/io" remote="rk" revision="ce23c82ae301239f8500e91a0008faa06db15147" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="c243be4233af17e69dc09a7479f2f8c5725898cb" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/platform/external/usb_modeswitch" path="external/usb_modeswitch" remote="rk" revision="416cd763c9145295eb6d462facf8726a48642ff1" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="59ab593ac6ed32ebcb9b3e51ba3cd2813207045a" upstream="rk32/mid/6.0/develop"/>
+  <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="14009b446ea0bcb3b7b33dc13896aeafca82d4d7" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="fa7981dc9f5416a694a584d9edcc33eb5a89cb59" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="4974f7f0f2aca2ac4775d76593e27b39c0555157" upstream="rk32/mid/7.0/develop"/>
+  <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="1920096075073b550967f2ae47dcc8089ab204a8" upstream="rk32/mid/7.0/develop"/>
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="0454503ed045e9cf8064c35c8284d14f19aeb088" upstream="rkproduct"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="b3e71813e13ba9a0fdf16efaf6b854140980d23b" upstream="rkproduct"/>
   <project name="android/toolchain/binutils" path="toolchain/binutils" revision="c327c9c1bcffd231fcaa05f3fd8c047d1fe0afcc" upstream="refs/tags/android-7.1.1_r6"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="c78208fe16f2270ed5eabece78bb2d837293e785" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="81d4a9fdbd2801c80e0f8bf2ce192ca9e822d2db" upstream="develop-4.4"/>
 </manifest>
