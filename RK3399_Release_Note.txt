@@ -34,7 +34,7 @@
 - 提升系统稳定性
 
 文档
-- 完善《Rockchip RK3399 Android 7.1 Box软件开发指南》各个章节，更新kernel编译命令
+- 完善《RK3399 Android7.1-Box 软件开发指南》各个章节，更新kernel编译命令
 - 更新DDR和eMMC支持列表到最新
 - 增加android 7.1 wifi配置说明
 - 增加媒体中心使用说明文档
