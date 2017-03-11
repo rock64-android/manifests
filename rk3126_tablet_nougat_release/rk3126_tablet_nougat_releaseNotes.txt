@@ -1,0 +1,8 @@
+release notes:
+版本：rk3126_tablet_nougat_beta_170310.xml
+
+更新点：
+1，增加自动抓log功能；
+2，增加支持WFD功能；
+3，更新CameraHal版本: v1.0x4f.5
+4，更新提升改善系统稳定性；
