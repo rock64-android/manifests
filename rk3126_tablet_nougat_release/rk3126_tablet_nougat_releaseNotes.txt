@@ -1,4 +1,4 @@
-release notes:
+﻿release notes:
 版本：rk3126_tablet_nougat_beta_170310.xml
 
 更新点：
@@ -6,3 +6,11 @@ release notes:
 2，增加支持WFD功能；
 3，更新CameraHal版本: v1.0x4f.5
 4，更新提升改善系统稳定性；
+
+
+版本：rk3126_tablet_nougat_beta_170313.xml
+
+1，更新gpu/video相关库版本；
+2，更新支持在线视频播放；
+3，更新支持CTS相关测试；
+4，优化系统运行流畅性；
