@@ -288,7 +288,7 @@
   <project path="external/vulkan-validation-layers" name="android/platform/external/vulkan-validation-layers" />
   <project path="external/webp" name="android/platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="android/platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="android/platform/external/wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android/platform/external/wpa_supplicant_8" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="external/xmlrpcpp" name="android/platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="android/platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="android/platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
@@ -331,7 +331,7 @@
   <project path="frameworks/wilhelm" name="android/platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="android/platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android/platform/hardware/broadcom/libbt" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop" />
-  <project path="hardware/broadcom/wlan" name="android/platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="android/platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="hardware/google/apf" name="android/platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/invensense" name="android/platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android/platform/hardware/libhardware" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop" />
@@ -502,7 +502,7 @@
   </project>
   <project path="rkst" name="android/rk/rkst" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project path="vendor/rockchip/common" name="android/rk/platform/vendor/rockchip/common" remote="rk" revision="rk32/mid/7.0/develop"/>
-  <project path="kernel" name="rk/kernel" remote="rk" revision="stable-3.10-rk3328-box-7.1"/>
+  <project path="kernel" name="rk/kernel" remote="rk_legacy" revision="stable-3.10-rk3328-box-7.1"/>
   <project path="u-boot" name="android/rk/u-boot" remote="rk" revision="rkproduct"/>
   <!-- RK3399 bringup projects. end -->
 
