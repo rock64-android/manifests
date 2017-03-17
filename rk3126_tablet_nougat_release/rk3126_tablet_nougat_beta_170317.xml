@@ -152,7 +152,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/jsoncpp" path="external/jsoncpp" revision="90c81b9c9aef09ef4ffb8de1779301734336d897" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/jsr305" path="external/jsr305" revision="91467ca5be4e876415f9f6bc4ef4a0f716c68fa4" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk" name="android/platform/external/jsr330" path="external/jsr330" revision="57916beef7b9401b594906d26833e0867bf60829" upstream="refs/tags/android-7.1.1_r22"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/junit" path="external/junit" remote="rk" revision="554d74edeab479a931bc50b838aa206a82a77a99" upstream="rk31/mid/7.0/develop"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/junit" path="external/junit" remote="rk" revision="f42d127acee107389ca606c4d449e6eaf23e95ac" upstream="rk31/mid/7.0/develop"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/kernel-headers" path="external/kernel-headers" revision="a4960127a8b1fdc23559c059bd82813529196e5c" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/ksoap2" path="external/ksoap2" revision="f13853ff0fa5eb65afc847176e55ca6db293eb3c" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk" name="android/platform/external/libavc" path="external/libavc" revision="72886b6964f6539908c8e127cd13c3091d2e5a8b" upstream="refs/tags/android-7.1.1_r22"/>
