@@ -529,6 +529,7 @@
   <project path="external/busybox" name="android/platform/external/busybox" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project path="external/rk-pcba-test" name="android/rk/platform/external/rk-pcba-test" groups="pdk" remote="rk" revision="rk32/mid/6.0/develop"/>
   -->
+  <project path="external/abc" name="android/rk/platform/external/abc" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="external/io" name="android/rk/platform/external/io" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project path="external/ntfs-3g" name="android/rk/platform/external/ntfs-3g" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project path="frameworks/opt/net/pppoe" name="android/platform/frameworks/opt/net/pppoe" groups="pdk-fs" remote="rk" revision="rk33/mid/7.0/develop"/>
