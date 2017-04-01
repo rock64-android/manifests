@@ -1,7 +1,26 @@
 ﻿
 ======RK3399 Android7.1 SDK Release Note======
 
-【rk3399_box_nougat_bete_20170310.xml 更新日志】
+【rk3399_box_nougat_beta_20170401.xml 更新日志】
+
+系统
+- 修复开机zygote crash一次问题
+- 修复画中画与大视频同时输出声音
+- 修复recovery升级问题
+- 添加recovery adb支持
+- 修复部分电视HDMI音频不输出问题
+- 提升HDMI电视兼容性
+- 支持uboot和kernel的logo显示
+
+优化
+- 性能及跑分优化
+- 开机速度优化
+
+文档
+- 添加《RK3399 JTAG配置指南 V1.1-20170327.pdf》
+
+
+【rk3399_box_nougat_beta_20170310.xml 更新日志】
 
 系统
 - 修复TvSetting添加蓝牙外设状态错误
