@@ -3,7 +3,7 @@
 
   <remote name="aosp" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   <remote name="rk" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
-  <default revision="refs/tags/android-7.1.1_r6"
+  <default revision="refs/tags/android-7.1.2_r6"
     remote="aosp"
     sync-c="true"
     sync-j="4" />
@@ -20,7 +20,7 @@
   <project path="abi/cpp" name="android/platform/abi/cpp" groups="pdk" />
   <project path="art" name="android/platform/art" groups="pdk" />
   <project path="bootable/recovery" name="android/platform/bootable/recovery" groups="pdk" remote= "aosp" revision="rk33/mid/7.0/develop" />
-  <project path="cts" name="android/platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
+  <project path="cts" name="android/platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="refs/tags/android-cts-7.1_r4" />
   <project path="dalvik" name="android/platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="android/platform/developers/build" />
   <project path="developers/demos" name="android/platform/developers/demos" />
@@ -103,7 +103,7 @@
   <project path="external/dagger2" name="android/platform/external/dagger2" />
   <project path="external/dbus" name="android/platform/external/dbus" />
   <project path="external/dbus-binding-generator" name="android/platform/external/dbus-binding-generator" />
-  <project path="external/deqp" name="android/platform/external/deqp" groups="pdk-fs" revision="refs/tags/android-cts_7.1_r1" />
+  <project path="external/deqp" name="android/platform/external/deqp" groups="pdk-fs" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="external/dexmaker" name="android/platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dhcpcd-6.8.2" name="android/platform/external/dhcpcd-6.8.2" />
   <project path="external/dlmalloc" name="android/platform/external/dlmalloc" />
@@ -124,7 +124,7 @@
   <project path="external/esd" name="android/platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/expat" name="android/platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="android/platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="android/platform/external/f2fs-tools" groups="pdk" />
+  <project path="external/f2fs-tools" name="android/platform/external/f2fs-tools" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop"  />
   <project path="external/fdlibm" name="android/platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="android/platform/external/fec" />
   <project path="external/fio" name="android/platform/external/fio" groups="pdk-fs" />
@@ -192,7 +192,7 @@
   <project path="external/libgdx" name="android/platform/external/libgdx" groups="pdk" />
   <project path="external/libgsm" name="android/platform/external/libgsm" groups="pdk" />
   <project path="external/libhevc" name="android/platform/external/libhevc" groups="pdk-fs" />
-  <project path="external/libjpeg-turbo" name="android/platform/external/libjpeg-turbo" groups="pdk" />
+  <project path="external/libjpeg-turbo" name="android/platform/external/libjpeg-turbo" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="external/liblzf" name="android/platform/external/liblzf" groups="pdk" />
   <project path="external/libmicrohttpd" name="android/platform/external/libmicrohttpd" />
   <project path="external/libmpeg2" name="android/platform/external/libmpeg2" groups="pdk" />
@@ -210,6 +210,7 @@
   <project path="external/libunwind_llvm" name="android/platform/external/libunwind_llvm" />
   <project path="external/libusb" name="android/platform/external/libusb" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="external/libusb-compat" name="android/platform/external/libusb-compat" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="rk33/mid/7.0/develop" />
+  <project path="external/libiconv" name="android/platform/external/libiconv" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="external/libutf" name="android/platform/external/libutf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvncserver" name="android/platform/external/libvncserver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvorbis" name="android/platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" />
@@ -249,7 +250,7 @@
   <project path="external/noto-fonts" name="android/platform/external/noto-fonts" groups="pdk" />
   <project path="external/oauth" name="android/platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="android/platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/okhttp" name="android/platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/okhttp" name="android/platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" revision="refs/tags/android-cts-7.1_r2" />
   <project path="external/opencv" name="android/platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv3" name="android/platform/external/opencv3" />
   <project path="external/owasp/sanitizer" name="android/platform/external/owasp/sanitizer" groups="pdk-fs" />
@@ -305,7 +306,7 @@
   <project path="external/vulkan-validation-layers" name="android/platform/external/vulkan-validation-layers" />
   <project path="external/webp" name="android/platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="android/platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="android/platform/external/wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android/platform/external/wpa_supplicant_8" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="external/xmlrpcpp" name="android/platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="android/platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="android/platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
@@ -382,7 +383,7 @@
   <project path="hardware/ti/omap3" name="android/platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="android/platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="android/platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="android/platform/libcore" groups="pdk" revision="refs/tags/android-cts_7.1_r1" />
+  <project path="libcore" name="android/platform/libcore" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="libnativehelper" name="android/platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="android/platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="android/platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
@@ -462,7 +463,7 @@
   <project path="prebuilts/clang/linux-x86/host/3.6" name="android/platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
   <project path="prebuilts/clang/host/darwin-x86" name="android/platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" />
   <project path="prebuilts/clang/host/linux-x86" name="android/platform/prebuilts/clang/host/linux-x86" groups="pdk" />
-  <project path="prebuilts/deqp" name="android/platform/prebuilts/deqp" groups="pdk-fs" />
+  <project path="prebuilts/deqp" name="android/platform/prebuilts/deqp" groups="pdk-fs" remote="aosp" revision="rk33/mid/7.0/develop"/>
   <project path="prebuilts/devtools" name="android/platform/prebuilts/devtools" groups="pdk-fs" />
   <project path="prebuilts/eclipse" name="android/platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="android/platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
@@ -502,7 +503,7 @@
   <project path="system/connectivity/apmanager" name="android/platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="android/platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="android/platform/system/connectivity/shill" />
-  <project path="system/extras" name="android/platform/system/extras" groups="pdk" revision="refs/tags/android-cts_7.1_r1"/>
+  <project path="system/extras" name="android/platform/system/extras" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="system/firewalld" name="android/platform/system/firewalld" />
   <project path="system/gatekeeper" name="android/platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="android/platform/system/keymaster" groups="pdk" />
