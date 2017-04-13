@@ -1,6 +1,17 @@
 ﻿
 ======RK3399 Android7.1 SDK Release Note======
 
+【rk3399_box_nougat_release_20170414.xml 更新日志】
+
+系统
+- 支持3D视频播放显示功能
+- 修复ITVLauncher和媒体中心若干问题
+- 修复HDMI读取EDID概率错误问题
+
+优化
+- 优化WFD延时
+
+
 【rk3399_box_nougat_beta_20170401.xml 更新日志】
 
 系统
