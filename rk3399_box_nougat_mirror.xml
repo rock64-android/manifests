@@ -192,7 +192,7 @@
   <project path="external/libgdx" name="android/platform/external/libgdx" groups="pdk" />
   <project path="external/libgsm" name="android/platform/external/libgsm" groups="pdk" />
   <project path="external/libhevc" name="android/platform/external/libhevc" groups="pdk-fs" />
-  <project path="external/libjpeg-turbo" name="android/platform/external/libjpeg-turbo" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop" />
+  <project path="external/libjpeg-turbo" name="android/platform/external/libjpeg-turbo" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="external/liblzf" name="android/platform/external/liblzf" groups="pdk" />
   <project path="external/libmicrohttpd" name="android/platform/external/libmicrohttpd" />
   <project path="external/libmpeg2" name="android/platform/external/libmpeg2" groups="pdk" />
@@ -306,7 +306,7 @@
   <project path="external/vulkan-validation-layers" name="android/platform/external/vulkan-validation-layers" />
   <project path="external/webp" name="android/platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="android/platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="android/platform/external/wpa_supplicant_8" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop" />
+  <project path="external/wpa_supplicant_8" name="android/platform/external/wpa_supplicant_8" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="external/xmlrpcpp" name="android/platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="android/platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="android/platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
@@ -331,7 +331,7 @@
   <project path="frameworks/opt/net/ethernet" name="android/platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" revision="rk33/mid/7.0/develop"/>
   <project path="frameworks/opt/net/ims" name="android/platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="android/platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="android/platform/frameworks/opt/net/wifi" groups="pdk" />
+  <project path="frameworks/opt/net/wifi" name="android/platform/frameworks/opt/net/wifi" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="frameworks/opt/photoviewer" name="android/platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="android/platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/telephony" name="android/platform/frameworks/opt/telephony" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
@@ -544,7 +544,7 @@
   <project path="hardware/libhardware_legacy" name="android/platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="hardware/libhardware" name="android/platform/hardware/libhardware" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="packages/apps/Music" name="android/platform/packages/apps/Music" groups="pdk-fs" remote="aosp" revision="rk33/mid/7.0/develop" />
-  <project path="packages/apps/Settings" name="android/platform/packages/apps/Settings" groups="pdk-fs" remote="rk" revision="rk33/box/7.0/develop" />
+  <project path="packages/apps/Settings" name="android/platform/packages/apps/Settings" groups="pdk-fs" remote="aosp" revision="rk33/box/7.0/develop"/>
   <project path="system/core" name="android/platform/system/core" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="external/tinyalsa" name="android/platform/external/tinyalsa" groups="pdk" remote="aosp" revision="rk33/mid/7.0/develop" />
   <!-- Rockchip's modified AOSP projects. end -->
@@ -607,7 +607,7 @@
   <project path="external/rk-pcba-test" name="android/rk/platform/external/rk-pcba-test" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop-drm" />
   <project path="vendor/widevine" name="android/rk/platform/vendor/Widevine" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="RKTools" name="android/RKTools" remote="rk" revision="rk3399/box/android-6.0" />
-  <project path="RKDocs" name="android/RKDocs" remote="rk" revision="rk3399/box/android-6.0" />
+  <project path="RKDocs" name="android/RKDocs" remote="rk" revision="rk3399/box/android-7.0" />
   <!-- Rockchip's extra projects. end -->
   <!-- Rockchip's private projects. end -->
 
