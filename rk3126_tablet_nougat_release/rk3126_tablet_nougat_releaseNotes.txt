@@ -61,3 +61,6 @@
 8，修复待机后唤醒响应慢
 9，修复RKTools工具打包问题
 
+rk3126_tablet_nougat_beta_170417.xml
+1， 更新gpu和gralloc
+2， 更新Windows-RKTools，支持打包update.img
