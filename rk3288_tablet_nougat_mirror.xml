@@ -24,8 +24,10 @@
   <project path="developers/demos" name="android/platform/developers/demos" />
   <project path="developers/samples/android" name="android/platform/developers/samples/android" />
   <project path="development" name="android/platform/development" groups="pdk-cw-fs,pdk-fs" />
+  <!--
   <project path="device/asus/fugu" name="android/device/asus/fugu" groups="device,fugu,broadcom_pdk" />
   <project path="device/asus/fugu-kernel" name="android/device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
+  -->
   <project path="device/common" name="android/device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="android/device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="android/device/generic/armv7-a-neon" groups="pdk" />
@@ -46,6 +48,7 @@
   <project path="device/google/accessory/demokit" name="android/device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="android/device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/google/contexthub" name="android/device/google/contexthub" groups="device" />
+  <!--
   <project path="device/google/dragon" name="android/device/google/dragon" groups="device,dragon" />
   <project path="device/google/dragon-kernel" name="android/device/google/dragon-kernel" groups="device,dragon" clone-depth="1" />
   <project path="device/htc/flounder" name="android/device/htc/flounder" groups="device,flounder,broadcom_pdk" />
@@ -59,6 +62,7 @@
   <project path="device/linaro/hikey-kernel" name="android/device/linaro/hikey-kernel" clone-depth="1" />
   <project path="device/moto/shamu" name="android/device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="android/device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
+  -->
   <project path="device/sample" name="android/device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="android/platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="android/platform/external/aac" groups="pdk" />
@@ -540,7 +544,6 @@
   <project path="tools/test/connectivity" name="android/platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="android/platform/tools/tradefederation" groups="notdefault,tradefed" />
   <!-- Rockchip specific repositories -->
-  <!-- RK3399 bringup projects. start -->
   <project path="device/rockchip/common" name="android/rk/device/rockchip/rksdk" remote="rk" revision="rk33/mid/7.0/develop">
       <copyfile src=".classpath" dest=".classpath"/>
       <copyfile src="mkimage.sh" dest="mkimage.sh"/>
@@ -583,7 +586,6 @@
   <project path="hardware/realtek" name="android/platform/hardware/realtek" remote="rk" revision="rk33/mid/7.0/develop"/>
   <project path="packages/apps/Browser" name="android/platform/packages/apps/Browser" groups="pdk-fs" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project path="system/displayd" name="android/rk/platform/system/displayd" groups="pdk" remote="rk" revision="rk30/box/4.4_r1/develop"/>
-  <project path="vendor/partner_gms" name="android/rk/platform/vendor/google" remote="rk" revision="rk33/mid/7.0/develop" force-path="true" />
   <!--
   <project path="vendor/widevine" name="android/rk/platform/vendor/Widevine" remote="rk" revision="rk33/mid/6.0/develop"/>
   -->
