@@ -1,5 +1,22 @@
 ======RK3328 Android7.1 SDK Release Note======
 
+【rk3328_box_nougat_v1.06_170421.xml 更新日志】
+系统
+- 解决系统reboot概率性卡死问题
+- 更新RTL8822BS WiFi 驱动
+- 更新兼容loader.bin，可自动探测DDR容量
+- 解决连接个别4K电视，设备卡死问题
+- 提升系统稳定性
+
+多媒体
+- 解决RKMC与Kodi应用不兼容问题
+
+媒体中心
+- 优化应用使用体验
+
+文档
+- 更新Rockchip RK3328软件开发指南 V1.04-20170418.pdf
+
 【rk3328_box_nougat_v1.05_170331.xml 更新日志】
 系统
 - 新增Box厂测工具及说明文档
