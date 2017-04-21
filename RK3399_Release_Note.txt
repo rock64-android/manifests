@@ -1,6 +1,14 @@
 ﻿
 ======RK3399 Android7.1 SDK Release Note======
 
+【rk3399_box_nougat_release_v1.0.1_20170421.xml 更新日志】
+
+系统
+- 合并AOSP android-7.1.2_r6
+- 修复HDMI若干问题
+- 修复recovery升级loader失败问题
+
+
 【rk3399_box_nougat_release_20170414.xml 更新日志】
 
 系统
