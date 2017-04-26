@@ -592,6 +592,6 @@
   <project path="external/wlan_loader" name="android/rk/platform/external/wlan_loader" remote="rk" revision="rk32/mid/6.0/develop" />
   <project path="external/abc" name="android/rk/platform/external/abc" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="RKTools" name="android/RKTools" remote="rk" revision="rk3288/mid/android-7.1"/>
-  <project path="RKDocs" name="android/RKDocs" remote="rk" revision="rk312x/mid/android-7.1"/>
+  <project path="RKDocs" name="android/RKDocs" remote="rk" revision="rk3288/mid/android-7.0"/>
   <!-- Rockchip's extra projects. end -->
 </manifest>

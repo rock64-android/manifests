@@ -5,7 +5,7 @@
   
   <default remote="aosp" revision="refs/tags/android-7.1.2_r6" sync-j="4"/>
   
-  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="0414fc6346b5abdde5d0fdf165a3cd5e1e17b47c" upstream="rk312x/mid/android-7.1"/>
+  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="ba20c56b3fca8a64a4d1d8cf005358e1a67c37d8" upstream="rk3288/mid/android-7.0"/>
   <project name="android/RKTools" path="RKTools" remote="rk" revision="acf890104d9cfc23467fdbce720027b380136d6b" upstream="rk3288/mid/android-7.1"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/device/common" path="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk" name="android/device/generic/arm64" path="device/generic/arm64" revision="6cb781ce6b178e671586c7448389d00bd8342c8e" upstream="refs/tags/android-7.1.2_r6"/>
