@@ -61,9 +61,23 @@
 8，修复待机后唤醒响应慢
 9，修复RKTools工具打包问题
 
-rk3126_tablet_nougat_beta_170417.xml
+版本：rk3126_tablet_nougat_beta_170417.xml
 1， 更新gpu和gralloc
 2， 更新Windows-RKTools，支持打包update.img
 
-rk3126_tablet_nougat_beta_170418.xml
+版本：rk3126_tablet_nougat_beta_170418.xml
 1，增加rk-pcba工程
+
+版本：rk3126_tablet_nougat_beta_170428.xml
+1. 系统升级到7.1.2_r6
+2. 编译脚本build.sh完善
+3. 解决文件浏览器某些情况下的UI无法操作问题
+4. 解决OTA升级后无法删除升级包的问题
+5. 更新lighting浏览器，解决原生browser部分问题
+6. 解决无锁屏时壁纸闪的问题
+7. 解决中文ID3显示异常的问题 
+8. 增加性能模式功能
+9. 增加过滤GMS唤醒应用的功能
+10.解决开机闪屏，Recovery白屏问题
+11.修复上一版本出现camera预览绿屏问题
+12.增加支持预置apk功能
