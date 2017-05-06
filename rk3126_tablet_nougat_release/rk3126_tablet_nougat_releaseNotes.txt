@@ -81,3 +81,15 @@
 10.解决开机闪屏，Recovery白屏问题
 11.修复上一版本出现camera预览绿屏问题
 12.增加支持预置apk功能
+
+版本：rk3126_tablet_nougat_beta_170506.xml
+1. 默认启用keystore硬件TEE支持，以符合Android-7.1的CTS要求；
+   系统以宏配置PRODUCT_HAVE_OPTEE设定TEE开关，默认开启；
+
+2. 更新RK816/I2C/rkvdec/isp驱动，提升系统平台稳定性;
+3. 解决系统相机预览绿屏的问题；
+4. 解决系统OTA升级失败的问题；
+5. 系统recovery界面增加支持配置旋转；
+6. 系统设置支持通过属性隐藏HDMI选项；
+7. 解决CtsAtraceHostTestCases、SoftDecoder等部分CTS测试问题；
+
