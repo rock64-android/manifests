@@ -93,3 +93,7 @@
 6. 系统设置支持通过属性隐藏HDMI选项；
 7. 解决CtsAtraceHostTestCases、SoftDecoder等部分CTS测试问题；
 
+
+版本：rk3126_tablet_nougat_beta_170508.xml
+1，更新tee安全相关的库或可执行文件；
+2，更新平台drmboot ko文件；
