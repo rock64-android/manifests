@@ -1,4 +1,4 @@
-﻿release notes:
+release notes:
 版本：rk3126_tablet_nougat_beta_170310.xml
 
 更新内容：
@@ -93,7 +93,31 @@
 6. 系统设置支持通过属性隐藏HDMI选项；
 7. 解决CtsAtraceHostTestCases、SoftDecoder等部分CTS测试问题；
 
-
 版本：rk3126_tablet_nougat_beta_170508.xml
 1，更新tee安全相关的库或可执行文件；
 2，更新平台drmboot ko文件；
+
+
+版本：rk3126_tablet_nougat_beta_170512.xml
+
+1. 解决使用OTG鼠标无法实现解锁
+2. 解决浏览器网页无法进行缩放
+3. 解决百度地图无法正常显示
+4. 解决GMS固件首次开机视频无法播放
+5. 新增3126c产品目录
+6. 恢复录音应用的桌面显示
+7. 解决设置PIN码时出现系统卡死的问题
+8. 解决机器稳定拷机中概率出现I2C异常
+9. 解决部分片源在视频播放器列表缩略图显示灰色马赛克
+10. 解决个别mkv操作快进退会从头开始播放的问题
+11. 解决相机解决白平衡功能显示异常
+12. 解决系统升级APK 的SELinux下载权限问题
+13. 解决senliux模式下，升级升级parameter 无权限重启问题
+
+注意事项：
+为符合Android-7.1的CTS要求，已默认开启keystore硬件TEE支持，固件需注意：
+1，需要烧写trust.img固件，确认uboot目录是否有编译trust.img
+2，parameter.txt需要增加trust分区，可参考device/rockchip/rk312x/parameter.txt
+3，loader用uboot目录下编译出来的，不要用其他渠道预编译好的
+
+
