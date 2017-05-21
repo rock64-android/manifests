@@ -121,3 +121,19 @@ release notes:
 3，loader用uboot目录下编译出来的，不要用其他渠道预编译好的
 
 
+
+版本：rk3126_tablet_nougat_beta_170520.xml
+1，解决系统概率解锁异常；
+2，解决OTG模式下鼠标无法解锁的问题
+3，解决按键进Recovery时显示“无命令”的问题
+4，解决相机预览窗口概率性出现泛绿现象
+5，解决部分片源在视频播放器列表缩略图显示灰色马赛克
+6，解决捕鱼达人2无法运行
+7，解决概率出现关机死机问题
+8，解决部分CTS测试问题：android.security.cts, testSetWallpaper_disallowed
+9，完善支持 ddr 变频特性
+10，更新文档：Rockchip_android7.1_wifi_配置明V1.5
+11，更新SDK编译脚本build.sh，支持生成patch
+12，新增支持兼容rk3126c芯片
+
+
