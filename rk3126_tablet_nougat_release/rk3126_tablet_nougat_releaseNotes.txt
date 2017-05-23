@@ -136,4 +136,5 @@ release notes:
 11，更新SDK编译脚本build.sh，支持生成patch
 12，新增支持兼容rk3126c芯片
 
-
+版本：rk3126_tablet_nougat_beta_170521.xml
+1，解决系统休眠后CPU性能下降的问题；
