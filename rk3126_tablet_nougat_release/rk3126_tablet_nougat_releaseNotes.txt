@@ -121,8 +121,7 @@ release notes:
 3，loader用uboot目录下编译出来的，不要用其他渠道预编译好的
 
 
-
-版本：rk3126_tablet_nougat_beta_170520.xml
+版本：rk3126_tablet_nougat_v1.00_170520.xml
 1，解决系统概率解锁异常；
 2，解决OTG模式下鼠标无法解锁的问题
 3，解决按键进Recovery时显示“无命令”的问题
@@ -136,5 +135,27 @@ release notes:
 11，更新SDK编译脚本build.sh，支持生成patch
 12，新增支持兼容rk3126c芯片
 
-版本：rk3126_tablet_nougat_beta_170521.xml
+版本：rk3126_tablet_nougat_v1.01_170521.xml
 1，解决系统休眠后CPU性能下降的问题；
+
+
+版本：rk3126_tablet_nougat_v1.10_170527.xml
+1.更新camera 应用，解决概率出现文件描述符泄漏的问题；
+2.更新loader，解决nand机器无法启动的问题；
+3.解决谷歌开机向导概率异常的问题
+4.解决设置显示内容大小引起的UI异常问题
+5.解决系统磁盘加密后概率出现解锁失败的问题
+6.更新AndroidTool工具配置，支持直接打包update.img
+7.更新工厂工具FactoryTool至V1.5版本，优化烧写速度
+8.解决nand机器sn无法读取的问题，更新nand驱动
+9.解决关机死机问题
+10.解决图案锁屏UI显示不完整，导致无法解锁的问题
+11.解决充电界面无法进休眠的问题
+
+开发注意事项：
+1.uboot config
+若从beta版升级到正式版，请注意uboot config由原来的rk3126_defconfig，更改为rk3126_secure_defconfig
+
+2.trust.img
+若从beta版升级到正式版，请注意目前编译出来的uboot镜像文件，多出trust.img，需要更新device/rockchip/rk312x/parameter.txt,增加trust分区。
+同时，update.img等打包脚本，需要注意将trust.img包含在内。
