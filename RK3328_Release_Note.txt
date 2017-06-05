@@ -1,5 +1,18 @@
 ======RK3328 Android7.1 SDK Release Note======
 
+【rk3328_box_nougat_v1.09_170605.xml 更新日志】
+系统
+- 新增对LPDDR3变频支持
+- 解决原生Kodi无法播放4K视频问题
+- 新增OMX通路HDR2SDR功能
+- 解决HDMI 4K 25Hz/30Hz输出时，RKMC退出重设分辨率问题
+- 解决其他应用无法通过媒体中心播放视频
+- TvSetting新增WiFi热点功能
+- TvSetting新增蓝牙配置功能
+
+文档
+- 更新Rockchip RK3328软件开发指南 V1.07-20170605.pdf
+  添加RK3328 DDR频率修改说明，详见5.8
 
 【rk3328_box_nougat_v1.08_170505.xml 更新日志】
 系统
