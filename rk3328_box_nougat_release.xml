@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@www.rockchip.com.cn/gerrit/" name="aosp"/>
-  <remote fetch="ssh://git@www.rockchip.com.cn/gerrit/" name="rk"/>
-  <remote fetch="ssh://git@www.rockchip.com.cn/repo/" name="rk_legacy"/>
+  <remote fetch="https://android.googlesource.com" name="aosp"/>
+  <remote fetch="https://github.com/rock64-android" name="rk"/>
   
   <default remote="aosp" revision="refs/tags/android-7.1.2_r6" sync-c="true" sync-j="4"/>
   
