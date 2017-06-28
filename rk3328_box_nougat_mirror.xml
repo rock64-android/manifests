@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="aosp" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
+  <remote name="aosp" fetch="https://android.googlesource.com/"/>
   <!--<remote name="rk" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>-->
   <remote name="rock64" fetch="https://github.com/rock64-android/"/>
   <default revision="refs/tags/android-7.1.1_r22"
