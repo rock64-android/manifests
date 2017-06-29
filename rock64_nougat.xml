@@ -175,6 +175,7 @@
   <project path="external/libgdx" name="platform/external/libgdx" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" />
+  <project path="external/libiconv" name="external-libiconv" groups="pdk" remote="rock64" revision="thzy_develop"/>
   <project path="external/libjpeg-turbo" name="platform-external-libjpeg-turbo" groups="pdk" remote="rock64" revision="thzy_develop" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" />
