@@ -2,7 +2,6 @@
 <manifest>
 
   <remote name="aosp" fetch="https://android.googlesource.com/"/>
-  <!--<remote name="rk" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>-->
   <remote name="rock64" fetch="https://github.com/rock64-android/"/>
   <default revision="refs/tags/android-7.1.1_r22"
     remote="aosp"
@@ -331,12 +330,12 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <!--<project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rock64" revision="thzy_develop" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="rock64" revision="thzy_develop" />-->
+  <project path="hardware/broadcom/libbt" name="platform-hardware-broadcom-libbt" groups="pdk" remote="rock64" revision="thzy_develop" />
+  <project path="hardware/broadcom/wlan" name="platform-hardware-broadcom-wlan" groups="pdk,broadcom_wlan" remote="rock64" revision="thzy_develop" />-->
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <!--<project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="rock64" revision="thzy_develop" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="rock64" revision="thzy_develop" />-->
+  <project path="hardware/libhardware" name="platform-hardware-libhardware" groups="pdk" remote="rock64" revision="thzy_develop" />
+  <project path="hardware/libhardware_legacy" name="platform-hardware-libhardware_legacy" groups="pdk" remote="rock64" revision="thzy_develop" />-->
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
@@ -352,7 +351,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
-  <!--<project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" remote="rock64" revision="thzy_develop" />-->
+  <project path="packages/apps/DeskClock" name="platform-packages-apps-DeskClock" groups="pdk-fs" remote="rock64" revision="thzy_develop" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
@@ -378,7 +377,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" />
-  <!--<project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="rock64" revision="rk33/box/7.0/develop"/>-->
+  <project path="packages/apps/Settings" name="platform-packages-apps-Settings" groups="pdk-fs" remote="rock64" revision="thzy_develop"/>
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
@@ -387,7 +386,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" />
-  <!--<project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" remote="rock64" revision="thzy_develop" />-->
+  <project path="packages/apps/TvSettings" name="platform-packages-apps-TvSettings" groups="generic_fs" remote="rock64" revision="thzy_develop" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
