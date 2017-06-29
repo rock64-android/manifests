@@ -513,7 +513,7 @@
   <project path="hardware/rockchip/hwcomposer" name="hardware-rockchip-hwcomposer" remote="rock64" revision="rk"/>
   <project path="hardware/rockchip/libiep" name="hardware-rockchip-libiep" remote="rock64" revision="rk"/>
   <project path="hardware/rockchip/libgralloc" name="hardware-rockchip-libgralloc" remote="rock64" revision="rk"/>
-  <project path="hardware/rockchip/librga" name="hardware-rockchip-librga" remote="rock64" revision="master" />
+  <project path="hardware/rockchip/librga" name="hardware-rockchip-librga" remote="rock64" revision="rk" />
   <project path="hardware/rockchip/librkvpu" name="hardware-rockchip-librkvpu" remote="rock64" revision="rk"/>
   <project path="hardware/rockchip/liblights" name="hardware-rockchip-liblights" remote="rock64" revision="rk"/>
   <project path="hardware/rockchip/omx_il" name="hardware-rockchip-omx_il" remote="rock64" revision="rk"/>
