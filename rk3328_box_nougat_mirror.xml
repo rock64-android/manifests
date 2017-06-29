@@ -535,7 +535,7 @@
   <project path="external/ntfs-3g" name="external-ntfs-3g" remote="rock64" revision="rk"/>
   <project path="frameworks/opt/net/pppoe" name="frameworks-opt-net-pppoe" groups="pdk-fs" remote="rock64" revision="rk"/>
   <project path="hardware/realtek" name="hardware-realtek" remote="rock64" revision="rk"/>
-  <project path="packages/apps/Browser" name="platform-packages-apps-Browser" groups="pdk-fs" remote="rock64" revision="rk"/>
+  <project path="packages/apps/Browser" name="packages-apps-Browser" groups="pdk-fs" remote="rock64" revision="rk"/>
   <project path="system/displayd" name="system-displayd" groups="pdk" remote="rock64" revision="rk"/>
   <project path="vendor/widevine" name="vendor-Widevine" remote="rock64" revision="rk"/>
   <project path="external/wlan_loader" name="external-wlan_loader" remote="rock64" revision="rk" />
