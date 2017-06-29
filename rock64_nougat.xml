@@ -331,12 +331,12 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <!--<project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rock64" revision="thzy_develop" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="rock64" revision="thzy_develop" />-->
+  <project path="hardware/broadcom/libbt" name="platform-hardware-broadcom-libbt" groups="pdk" remote="rock64" revision="thzy_develop" />
+  <project path="hardware/broadcom/wlan" name="platform-hardware-broadcom-wlan" groups="pdk,broadcom_wlan" remote="rock64" revision="thzy_develop" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <!--<project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="rock64" revision="thzy_develop" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="rock64" revision="thzy_develop" />-->
+  <project path="hardware/libhardware" name="platform-hardware-libhardware" groups="pdk" remote="rock64" revision="thzy_develop" />
+  <project path="hardware/libhardware_legacy" name="platform-hardware-libhardware_legacy" groups="pdk" remote="rock64" revision="thzy_develop" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
