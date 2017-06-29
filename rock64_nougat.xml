@@ -504,7 +504,7 @@
   <project path="rkst" name="rkst" remote="rock64" revision="rk"/>
   <project path="vendor/rockchip/common" name="vendor-rockchip-common" remote="rock64" revision="master"/>
   <project path="kernel" name="kernel" remote="rock64" revision="rk"/>
-  <!--<project path="u-boot" name="u-boot" remote="rock64" revision="rkproduct"/>-->
+  <project path="u-boot" name="u-boot" remote="rock64" revision="rk"/>
   <!-- RK3399 bringup projects. end -->
 
   <!-- Rockchip's HAL projects. start -->
